@@ -57,6 +57,7 @@
 		677099A91BFEED5B001C2AA1 /* CGDemo */ = {
 			isa = PBXGroup;
 			children = (
+				677099C41BFEF1B7001C2AA1 /* Controllers */,
 				677099AD1BFEED5B001C2AA1 /* AppDelegate.h */,
 				677099AE1BFEED5B001C2AA1 /* AppDelegate.m */,
 				677099B31BFEED5B001C2AA1 /* Main.storyboard */,
@@ -75,6 +76,13 @@
 				677099AB1BFEED5B001C2AA1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		677099C41BFEF1B7001C2AA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
