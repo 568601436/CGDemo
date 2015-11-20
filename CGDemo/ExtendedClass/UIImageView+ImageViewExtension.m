@@ -7,7 +7,7 @@
 //
 
 #import "UIImageView+ImageViewExtension.h"
-#import "AppDelegate.h"
+#import "FileHelp.h"
 #import "NSString+StringExtension.h"
 
 @implementation UIImageView (ImageViewExtension)
@@ -20,8 +20,7 @@
         return;
     }
     NSURL *imageurl = [NSURL URLWithString: url];
-    NSString *path = [AppDelegate getImagePathWithUrl: imageurl];
-    
+    NSString *path = [[FileHelp shareInstance] getImagePathWithUrl:imageurl];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^
     {
         NSData *data = [NSData dataWithContentsOfFile: path];
@@ -75,7 +74,7 @@
         return;
     }
     NSURL *imageurl = [NSURL URLWithString: url];
-    NSString *path = [AppDelegate getImagePathWithUrl: imageurl];
+    NSString *path = [[FileHelp shareInstance] getImagePathWithUrl:imageurl];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^
                    {

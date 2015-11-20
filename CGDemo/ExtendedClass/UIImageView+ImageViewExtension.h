@@ -11,14 +11,14 @@
 @interface UIImageView (ImageViewExtension)
 /**
  *  异步下载图片
- *  陈刚
+ *
  *  @param url         图片地址
  *  @param placeholder 默认图片
  */
 - (void)loadImage:(NSString *)url placeholder:(UIImage *)placeholder;
 /**
  *  设置图片圆角
- *  陈刚
+ *
  */
 - (void)setFaceStyle;
 
