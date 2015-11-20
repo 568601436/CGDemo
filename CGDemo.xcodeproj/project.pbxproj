@@ -13,6 +13,8 @@
 		677099B81BFEED5B001C2AA1 /* CGDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 677099B61BFEED5B001C2AA1 /* CGDemo.xcdatamodeld */; };
 		677099BA1BFEED5B001C2AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677099B91BFEED5B001C2AA1 /* Assets.xcassets */; };
 		677099BD1BFEED5B001C2AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677099BB1BFEED5B001C2AA1 /* LaunchScreen.storyboard */; };
+		679174A21BFEF39200EC2002 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 679174A11BFEF39200EC2002 /* BaseVC.m */; };
+		679174A51BFEF3A900EC2002 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 679174A41BFEF3A900EC2002 /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,10 @@
 		677099B91BFEED5B001C2AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677099BC1BFEED5B001C2AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677099BE1BFEED5B001C2AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679174A01BFEF39200EC2002 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		679174A11BFEF39200EC2002 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		679174A31BFEF3A900EC2002 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		679174A41BFEF3A900EC2002 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,20 @@
 		677099C41BFEF1B7001C2AA1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6791749F1BFEF36B00EC2002 /* Home */,
+				679174A01BFEF39200EC2002 /* BaseVC.h */,
+				679174A11BFEF39200EC2002 /* BaseVC.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6791749F1BFEF36B00EC2002 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				679174A31BFEF3A900EC2002 /* HomeVC.h */,
+				679174A41BFEF3A900EC2002 /* HomeVC.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +176,8 @@
 				677099AF1BFEED5B001C2AA1 /* AppDelegate.m in Sources */,
 				677099B81BFEED5B001C2AA1 /* CGDemo.xcdatamodeld in Sources */,
 				677099AC1BFEED5B001C2AA1 /* main.m in Sources */,
+				679174A51BFEF3A900EC2002 /* HomeVC.m in Sources */,
+				679174A21BFEF39200EC2002 /* BaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +326,7 @@
 				677099C31BFEED5B001C2AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
