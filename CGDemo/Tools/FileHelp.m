@@ -20,7 +20,6 @@ static NSString *VOICE_CACHE_PATH = @"/Library/Caches/Voices/";
     return self;
 }
 
-
 - (void)initFilePath{
     NSArray *cachepaths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
     if (cachepaths && cachepaths.count > 0)

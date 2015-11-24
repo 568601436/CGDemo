@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSPaoMaView.h"
 
 @interface BaseVC : UIViewController
 

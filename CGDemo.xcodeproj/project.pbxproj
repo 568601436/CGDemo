@@ -21,6 +21,7 @@
 		679174B41BFF05E300EC2002 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 679174AE1BFF05E300EC2002 /* UIImage+Color.m */; };
 		679174B51BFF05E300EC2002 /* UIImageView+ImageViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 679174B01BFF05E300EC2002 /* UIImageView+ImageViewExtension.m */; };
 		679174B91BFF06AC00EC2002 /* FileHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 679174B81BFF06AC00EC2002 /* FileHelp.m */; };
+		67B84CB21C040728005BF04A /* LSPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B84CB11C040728005BF04A /* LSPaoMaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		679174B01BFF05E300EC2002 /* UIImageView+ImageViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageViewExtension.m"; sourceTree = "<group>"; };
 		679174B71BFF06AC00EC2002 /* FileHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelp.h; sourceTree = "<group>"; };
 		679174B81BFF06AC00EC2002 /* FileHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelp.m; sourceTree = "<group>"; };
+		67B84CB01C040728005BF04A /* LSPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPaoMaView.h; sourceTree = "<group>"; };
+		67B84CB11C040728005BF04A /* LSPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPaoMaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 			children = (
 				679174B71BFF06AC00EC2002 /* FileHelp.h */,
 				679174B81BFF06AC00EC2002 /* FileHelp.m */,
+				67B84CB01C040728005BF04A /* LSPaoMaView.h */,
+				67B84CB11C040728005BF04A /* LSPaoMaView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B84CB21C040728005BF04A /* LSPaoMaView.m in Sources */,
 				679174B11BFF05E300EC2002 /* NSArray+arrayExtension.m in Sources */,
 				677099AF1BFEED5B001C2AA1 /* AppDelegate.m in Sources */,
 				679174B51BFF05E300EC2002 /* UIImageView+ImageViewExtension.m in Sources */,
